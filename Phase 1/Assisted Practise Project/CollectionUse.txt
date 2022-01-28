@@ -1,0 +1,22 @@
+import java.util.Collection;
+import java.util.LinkedList;
+
+public class CollectionUse {
+	
+    public static void main(String args[])
+    {
+    	
+        Collection<String> list = new LinkedList<String>();
+        
+        list.add("welcome");
+        list.add("to");
+        list.add("company");
+ 
+        System.out.println("The list is: " + list);
+        
+        list.add("Last");
+        list.add("Element");
+        
+        System.out.println("The new List is: " + list);
+    }
+}
