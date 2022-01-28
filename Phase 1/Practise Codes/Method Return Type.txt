@@ -1,0 +1,15 @@
+package BasicPrograms1;
+
+public class MethodReturnType {
+	   public int sub() { 
+	      int x = 54;
+	      int y = 43;
+	      int z = x-y;
+	      return z;
+	   }
+	   public static void main(String args[]) {
+	      MethodReturnType test = new MethodReturnType();
+	      int sub = test.sub();
+	      System.out.println("The substraction of x and y is: " + sub);
+	   }
+	}
